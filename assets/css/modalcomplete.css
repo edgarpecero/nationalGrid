@@ -1,0 +1,1214 @@
+/* screen - modalcomplete */
+
+.modalcomplete {
+  align-items: flex-start;
+  background-color: var(--alabaster);
+  display: flex;
+  width: 1440px;
+}
+
+.modalcomplete .overlap-group2 {
+  height: 1126px;
+  position: relative;
+  width: 1440px;
+}
+
+.modalcomplete .chart {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  box-shadow: 8px 8px 16px #eeeeee80 , -8px -8px 16px #ededed80;
+  display: flex;
+  flex-direction: column;
+  left: 40px;
+  min-height: 682px;
+  position: absolute;
+  top: 404px;
+  width: 1360px;
+}
+
+.modalcomplete .top-bar {
+  align-items: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b64eac459d197e274db9/img/modal--action-required-rectangle-56676902-A85E-46CE-A813-C854992021DC.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 45px;
+  min-width: 1360px;
+  padding: 0 20px;
+}
+
+.modalcomplete .group {
+  align-items: center;
+  display: flex;
+  height: 21px;
+  min-width: 118px;
+}
+
+.modalcomplete .requested-for {
+  letter-spacing: 0;
+  line-height: 21px;
+  min-height: 21px;
+  min-width: 101px;
+  white-space: nowrap;
+}
+
+.modalcomplete .sort {
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 17px;
+  margin-left: 6px;
+  min-height: 17px;
+  min-width: 13px;
+  white-space: nowrap;
+}
+
+.modalcomplete .group-3 {
+  align-items: center;
+  display: flex;
+  height: 21px;
+  margin-left: 61px;
+  min-width: 109px;
+}
+
+.modalcomplete .employee-id {
+  letter-spacing: 0;
+  line-height: 21px;
+  min-height: 21px;
+  min-width: 92px;
+  white-space: nowrap;
+}
+
+.modalcomplete .group-4 {
+  align-items: center;
+  display: flex;
+  height: 21px;
+  margin-left: 41px;
+  min-width: 65px;
+}
+
+.modalcomplete .status {
+  letter-spacing: 0;
+  line-height: 21px;
+  min-height: 21px;
+  min-width: 48px;
+  white-space: nowrap;
+}
+
+.modalcomplete .group-5-1 {
+  align-items: center;
+  display: flex;
+  height: 21px;
+  margin-left: 122px;
+  min-width: 91px;
+}
+
+.modalcomplete .start-date {
+  letter-spacing: 0;
+  line-height: 21px;
+  min-height: 21px;
+  min-width: 74px;
+  white-space: nowrap;
+}
+
+.modalcomplete .group-6 {
+  align-items: center;
+  display: flex;
+  height: 21px;
+  margin-left: 97px;
+  min-width: 51px;
+}
+
+.modalcomplete .role {
+  letter-spacing: 0;
+  line-height: 21px;
+  min-height: 21px;
+  min-width: 34px;
+  white-space: nowrap;
+}
+
+.modalcomplete .group-7 {
+  align-items: center;
+  display: flex;
+  height: 21px;
+  margin-left: 131px;
+  min-width: 128px;
+}
+
+.modalcomplete .hiring-manager {
+  letter-spacing: 0;
+  line-height: 21px;
+  min-height: 21px;
+  min-width: 111px;
+  white-space: nowrap;
+}
+
+.modalcomplete .group-8 {
+  align-items: center;
+  display: flex;
+  height: 21px;
+  margin-left: 49px;
+  min-width: 54px;
+}
+
+.modalcomplete .type {
+  letter-spacing: 0;
+  line-height: 21px;
+  min-height: 21px;
+  min-width: 37px;
+  white-space: nowrap;
+}
+
+.modalcomplete .group-9 {
+  align-items: center;
+  display: flex;
+  height: 21px;
+  margin-left: 83px;
+  min-width: 82px;
+}
+
+.modalcomplete .location {
+  letter-spacing: 0;
+  line-height: 21px;
+  min-height: 21px;
+  min-width: 65px;
+  white-space: nowrap;
+}
+
+.modalcomplete .overlap-group {
+  height: 220px;
+  margin-top: 4px;
+  position: relative;
+  width: 1360px;
+}
+
+.modalcomplete .rectangle {
+  background-color: var(--geyser);
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px #d6cfcf80;
+  height: 220px;
+  left: 1344px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.modalcomplete .row {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 75px;
+  position: absolute;
+  top: 132px;
+  width: 1360px;
+}
+
+.modalcomplete .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 25.0px;
+  margin-top: -3px;
+  min-width: 1295px;
+}
+
+.modalcomplete .name-1 {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 4px;
+  min-height: 23px;
+  white-space: nowrap;
+  width: 132px;
+}
+
+.modalcomplete .phone-1 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 47px;
+  margin-top: 3px;
+  min-height: 22px;
+  white-space: nowrap;
+  width: 68px;
+}
+
+.modalcomplete .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 48px;
+  margin-left: 80px;
+  min-width: 338px;
+}
+
+.modalcomplete .in-progress {
+  align-items: center;
+  background-color: var(--well-read);
+  border-radius: 8px;
+  display: flex;
+  height: 32px;
+  min-width: 145px;
+  padding: 0 7px;
+}
+
+.modalcomplete .action-required-chev {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  min-height: 22px;
+  min-width: 130px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.modalcomplete .dates {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 44px;
+  min-height: 45px;
+  width: 149px;
+}
+
+.modalcomplete .x-jun-2 {
+  letter-spacing: 0;
+  line-height: 22px;
+  min-height: 22px;
+  white-space: nowrap;
+}
+
+.modalcomplete .x-days {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 3px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.modalcomplete .gas-field-operator {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 39px;
+  margin-top: 3px;
+  min-height: 22px;
+  white-space: nowrap;
+  width: 132px;
+}
+
+.modalcomplete .name {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 50px;
+  margin-top: 3px;
+  min-height: 22px;
+  white-space: nowrap;
+  width: 113px;
+}
+
+.modalcomplete .contractor {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 64px;
+  margin-top: 3px;
+  min-height: 22px;
+  white-space: nowrap;
+  width: 81px;
+}
+
+.modalcomplete .syracuse-erie-blvd-5 {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 56px;
+  margin-top: 2.0px;
+  min-height: 44px;
+  width: 95px;
+}
+
+.modalcomplete .line-4-copy-3 {
+  height: 2px;
+  margin-top: 28px;
+  opacity: 0.55;
+  width: 1363px;
+}
+
+.modalcomplete .row-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 76px;
+  position: absolute;
+  top: 26px;
+  width: 1360px;
+}
+
+.modalcomplete .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 23.0px;
+  margin-top: -3px;
+  min-width: 1297px;
+}
+
+.modalcomplete .name-2 {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 4px;
+  min-height: 23px;
+  min-width: 77px;
+  white-space: nowrap;
+}
+
+.modalcomplete .phone-2 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 102px;
+  margin-top: 3px;
+  min-height: 22px;
+  min-width: 70px;
+  white-space: nowrap;
+}
+
+.modalcomplete .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 48px;
+  margin-left: 78px;
+  min-width: 338px;
+}
+
+.modalcomplete .gas-field-operator-1 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 39px;
+  margin-top: 3px;
+  min-height: 22px;
+  min-width: 134px;
+  white-space: nowrap;
+}
+
+.modalcomplete .name-3 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 48px;
+  margin-top: 3px;
+  min-height: 22px;
+  min-width: 115px;
+  white-space: nowrap;
+}
+
+.modalcomplete .employee-1 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 62px;
+  margin-top: 3px;
+  min-height: 22px;
+  min-width: 73px;
+  white-space: nowrap;
+}
+
+.modalcomplete .syracuse-erie-blvd-5-1 {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 64px;
+  margin-top: 2.0px;
+  min-height: 44px;
+  min-width: 97px;
+}
+
+.modalcomplete .line-4-copy-3-1 {
+  height: 3px;
+  margin-top: 28px;
+  opacity: 0.55;
+  width: 1363px;
+}
+
+.modalcomplete .row-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+  min-height: 75px;
+  width: 1360px;
+}
+
+.modalcomplete .nikolay-nikandrov {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 3px;
+  min-height: 23px;
+  white-space: nowrap;
+  width: 151px;
+}
+
+.modalcomplete .phone {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 28px;
+  margin-top: 3px;
+  min-height: 22px;
+  white-space: nowrap;
+  width: 68px;
+}
+
+.modalcomplete .flex-row-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 48px;
+  margin-left: 80px;
+  min-width: 346px;
+}
+
+.modalcomplete .in-progress-1 {
+  align-items: center;
+  background-color: var(--corn);
+  border-radius: 8px;
+  display: flex;
+  height: 32px;
+  min-width: 145px;
+  padding: 0 24px;
+}
+
+.modalcomplete .in-progress-chevron {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  min-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+  width: 96px;
+}
+
+.modalcomplete .dates-1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 44px;
+  min-height: 45px;
+  width: 157px;
+}
+
+.modalcomplete .gas-field-operator-2 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 31px;
+  margin-top: 3px;
+  min-height: 22px;
+  white-space: nowrap;
+  width: 132px;
+}
+
+.modalcomplete .northboro-ng-srv-co-1 {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 56px;
+  margin-top: 2.0px;
+  min-height: 44px;
+  width: 95px;
+}
+
+.modalcomplete .chart-item {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  min-height: 75px;
+  width: 1360px;
+}
+
+.modalcomplete .vinay-sharma {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 3px;
+  min-height: 23px;
+  white-space: nowrap;
+  width: 151px;
+}
+
+.modalcomplete .flex-row-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 48px;
+  margin-left: 80px;
+  min-width: 354px;
+}
+
+.modalcomplete .dates-2 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 44px;
+  min-height: 45px;
+  width: 165px;
+}
+
+.modalcomplete .gas-field-operator-3 {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 23px;
+  margin-top: 3px;
+  min-height: 22px;
+  white-space: nowrap;
+  width: 132px;
+}
+
+.modalcomplete .employee {
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 64px;
+  margin-top: 3px;
+  min-height: 22px;
+  white-space: nowrap;
+  width: 71px;
+}
+
+.modalcomplete .northboro-ng-srv-co {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: 66px;
+  margin-top: 2.0px;
+  min-height: 44px;
+  width: 95px;
+}
+
+.modalcomplete .pramod-agrawal {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 3px;
+  min-height: 23px;
+  white-space: nowrap;
+  width: 151px;
+}
+
+.modalcomplete .karthik-selvam {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 3px;
+  min-height: 23px;
+  white-space: nowrap;
+  width: 151px;
+}
+
+.modalcomplete .in-progress-2 {
+  align-items: center;
+  background-color: var(--green-leaf);
+  border-radius: 8px;
+  display: flex;
+  height: 32px;
+  min-width: 145px;
+  padding: 0 20px;
+}
+
+.modalcomplete .complete-chevron-rig {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 22px;
+  min-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+  width: 103px;
+}
+
+.modalcomplete .search {
+  align-items: flex-start;
+  background-color: var(--black-squeeze);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 280px;
+  position: absolute;
+  top: 80px;
+  width: 1440px;
+}
+
+.modalcomplete .new-joiner-technolog {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-left: 40px;
+  margin-top: 29px;
+  min-height: 28px;
+  white-space: nowrap;
+}
+
+.modalcomplete .flex-row-6 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  height: 184px;
+  margin-top: 19px;
+  min-width: 1360px;
+}
+
+.modalcomplete .search-filter-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 174px;
+  width: 310px;
+}
+
+.modalcomplete .search-filter {
+  height: 77px;
+  width: 310px;
+}
+
+.modalcomplete .search-filter-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  min-height: 77px;
+  width: 310px;
+}
+
+.modalcomplete .new-hire-name {
+  letter-spacing: 0;
+  line-height: 23px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.modalcomplete .form-field {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  margin-top: 9px;
+  min-width: 310px;
+  padding: 14px 11px;
+}
+
+.modalcomplete .chevron-down {
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 14px;
+  min-height: 14px;
+  white-space: nowrap;
+}
+
+.modalcomplete .search-filter-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  min-height: 174px;
+  width: 310px;
+}
+
+.modalcomplete .new-hire-name-1 {
+  letter-spacing: 0;
+  line-height: 23px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.modalcomplete .search-filter-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  min-height: 77px;
+  width: 310px;
+}
+
+.modalcomplete .new-hire-name-2 {
+  letter-spacing: 0;
+  line-height: 23px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.modalcomplete .flex-col-2 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  min-height: 184px;
+  width: 310px;
+}
+
+.modalcomplete .search-filter-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 77px;
+  width: 310px;
+}
+
+.modalcomplete .new-hire-name-3 {
+  letter-spacing: 0;
+  line-height: 23px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.modalcomplete .buttons {
+  align-items: center;
+  display: flex;
+  margin-top: 61px;
+  min-width: 157px;
+}
+
+.modalcomplete .clear {
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 1.0px;
+  min-height: 23px;
+  min-width: 41px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.modalcomplete .search-button {
+  align-items: flex-end;
+  background-color: var(--smalt-22);
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px #b6aeae80;
+  display: flex;
+  height: 46px;
+  margin-left: 16px;
+  min-width: 100px;
+  padding: 11px 23px;
+}
+
+.modalcomplete .search-1 {
+  letter-spacing: 0;
+  line-height: 23px;
+  min-height: 23px;
+  min-width: 54px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.modalcomplete .path-3 {
+  height: 2px;
+  margin-left: -0.5px;
+  margin-top: 18px;
+  width: 1441px;
+}
+
+.modalcomplete .overlap-group1 {
+  height: 80px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.modalcomplete .top-bar-tours {
+  align-items: center;
+  background-color: var(--smalt-3);
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1440px;
+  padding: 0 40px;
+  position: absolute;
+  top: 0;
+}
+
+.modalcomplete .search-bar {
+  align-items: center;
+  background-color: var(--black-haze);
+  border-radius: 15.5px;
+  display: flex;
+  height: 35px;
+  margin-top: 1.0px;
+  min-width: 242px;
+  padding: 7px 16px;
+}
+
+.modalcomplete .search-2 {
+  letter-spacing: 0;
+  line-height: 19px;
+  min-height: 19px;
+  min-width: 54px;
+  white-space: nowrap;
+}
+
+.modalcomplete .icon-search {
+  align-self: flex-end;
+  height: 20px;
+  margin-left: 140px;
+  width: 16px;
+}
+
+.modalcomplete .group-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 52px;
+  margin-left: 114px;
+  min-width: 82px;
+}
+
+.modalcomplete .profile {
+  height: 55px;
+  margin-left: -1px;
+  margin-top: -1px;
+  width: 55px;
+}
+
+.modalcomplete .angle-down {
+  align-self: center;
+  height: 29px;
+  margin-left: 10px;
+  margin-top: 3.0px;
+  width: 18px;
+}
+
+.modalcomplete .icon-notifications {
+  height: 30px;
+  left: 1262px;
+  position: absolute;
+  top: 25px;
+  width: 24px;
+}
+
+.modalcomplete .pik-pngcom_white-grid-png_1713082 {
+  height: 30px;
+  left: 31px;
+  position: absolute;
+  top: 25px;
+  width: 145px;
+}
+
+.modalcomplete .rectangle-1 {
+  background-color: var(--fuscous-gray-32);
+  height: 1126px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.modalcomplete .modal {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 6px;
+  box-shadow: 4px 4px 8px #8e8a8a40 , -4px -4px 8px #8e8a8a40;
+  display: flex;
+  flex-direction: column;
+  left: 342px;
+  min-height: 777px;
+  padding: 30px 28px;
+  position: absolute;
+  top: 175px;
+  width: 756px;
+}
+
+.modalcomplete .title {
+  cursor: pointer;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 24px;
+  min-height: 24px;
+  min-width: 19px;
+  white-space: nowrap;
+}
+
+.modalcomplete .account-setup {
+  align-items: center;
+  display: flex;
+  height: 69px;
+  margin-right: 32px;
+  margin-top: 6px;
+  min-width: 636px;
+}
+
+.modalcomplete .application-setup {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 69px;
+  width: 214px;
+}
+
+.modalcomplete .group-8-1 {
+  align-items: center;
+  display: flex;
+  min-width: 214px;
+}
+
+.modalcomplete .account-setup-1 {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 1.0px;
+  min-height: 23px;
+  min-width: 114px;
+  white-space: nowrap;
+}
+
+.modalcomplete .status-complete-1 {
+  height: 30px;
+  margin-left: 4px;
+  width: 96px;
+}
+
+.modalcomplete .last-updated-on-04-2 {
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 16px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.modalcomplete .bar-chart-1 {
+  height: 12px;
+  margin-left: 172px;
+  margin-top: 1.0px;
+  width: 250px;
+}
+
+.modalcomplete .path-5-1 {
+  height: 3px;
+  margin-right: 31.5px;
+  margin-top: 38px;
+  width: 637px;
+}
+
+.modalcomplete .device-laptop-delivery {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  margin-top: 38px;
+  min-height: 108px;
+  width: 636px;
+}
+
+.modalcomplete .device-delivery {
+  align-items: center;
+  display: flex;
+  min-width: 287px;
+}
+
+.modalcomplete .device-laptop-deliv {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 1.0px;
+  min-height: 23px;
+  min-width: 185px;
+  white-space: nowrap;
+}
+
+.modalcomplete .status-complete {
+  height: 30px;
+  margin-left: 6px;
+  width: 96px;
+}
+
+.modalcomplete .desktop-laptop {
+  align-items: center;
+  display: flex;
+  margin-top: 16px;
+  min-width: 636px;
+}
+
+.modalcomplete .group-5 {
+  align-items: flex-end;
+  display: flex;
+  height: 62px;
+  min-width: 242px;
+}
+
+.modalcomplete .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -0.5px;
+  min-height: 54px;
+  width: 8px;
+}
+
+.modalcomplete .oval {
+  background-color: var(--cerulean);
+  border-radius: 8px;
+  height: 8px;
+  width: 8px;
+}
+
+.modalcomplete .path-4 {
+  height: 39px;
+  margin-left: 2.5px;
+  margin-top: 8px;
+  width: 2px;
+}
+
+.modalcomplete .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  min-height: 62px;
+  width: 228px;
+}
+
+.modalcomplete .order-number-req123 {
+  cursor: pointer;
+  letter-spacing: 0;
+  line-height: 23px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.modalcomplete .status-deliverred {
+  height: 23px;
+  margin-top: 16px;
+  width: 133px;
+}
+
+.modalcomplete .bar-chart {
+  height: 12px;
+  margin-left: 144px;
+  width: 250px;
+}
+
+.modalcomplete .path-5 {
+  height: 2px;
+  margin-right: 31.5px;
+  margin-top: 40px;
+  width: 637px;
+}
+
+.modalcomplete .device-laptop-delivery-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+  margin-top: 40px;
+  min-height: 108px;
+  width: 636px;
+}
+
+.modalcomplete .device-delivery-1 {
+  align-items: center;
+  display: flex;
+  min-width: 279px;
+}
+
+.modalcomplete .mobile-device-delive {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 1.0px;
+  min-height: 23px;
+  min-width: 177px;
+  white-space: nowrap;
+}
+
+.modalcomplete .status-delivered {
+  height: 23px;
+  margin-top: 16px;
+  width: 127px;
+}
+
+.modalcomplete .remote-access-setup {
+  align-items: center;
+  display: flex;
+  height: 140px;
+  margin-right: 32px;
+  margin-top: 40px;
+  min-width: 636px;
+}
+
+.modalcomplete .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 140px;
+  width: 339px;
+}
+
+.modalcomplete .device-delivery-2 {
+  align-items: center;
+  display: flex;
+  min-width: 232px;
+}
+
+.modalcomplete .additional-items {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 1.0px;
+  min-height: 23px;
+  min-width: 130px;
+  white-space: nowrap;
+}
+
+.modalcomplete .desktop-laptop-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 94px;
+  margin-top: 16px;
+  min-width: 339px;
+}
+
+.modalcomplete .flex-col-4 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -0.5px;
+  min-height: 86px;
+  width: 8px;
+}
+
+.modalcomplete .path-4-1 {
+  height: 71px;
+  margin-left: 2.5px;
+  margin-top: 8px;
+  width: 2px;
+}
+
+.modalcomplete .flex-col-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  min-height: 93px;
+  width: 325px;
+}
+
+.modalcomplete .applications-requiri {
+  letter-spacing: 0;
+  line-height: 23px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.modalcomplete .order-number-req123-1 {
+  letter-spacing: 0;
+  line-height: 23px;
+  margin-top: 12px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.modalcomplete .status-completed {
+  height: 23px;
+  margin-top: 12px;
+  width: 139px;
+}
+
+.modalcomplete .bar-chart-2 {
+  height: 12px;
+  margin-left: 47px;
+  margin-top: 46.0px;
+  width: 250px;
+}

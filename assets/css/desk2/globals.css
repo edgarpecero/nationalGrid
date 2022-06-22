@@ -1,0 +1,11 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "FontAwesome5Free-Solid";
+  font-weight: 900;
+  src: url("https://fonts.animaapp.com/FontAwesome5Free-Solid") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,44 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@font-face {
+  font-family: "SegoeUI";
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/SegoeUI") format("truetype");
+}
+@font-face {
+  font-family: "FontAwesome5Free-Solid";
+  font-weight: 900;
+  src: url("https://fonts.animaapp.com/FontAwesome5Free-Solid") format("opentype");
+}
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/SFProDisplay-Regular") format("truetype");
+}
+@font-face {
+  font-family: "SegoeUI-Bold";
+  font-weight: 700;
+  src: url("https://fonts.animaapp.com/SegoeUI-Bold") format("truetype");
+}
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}

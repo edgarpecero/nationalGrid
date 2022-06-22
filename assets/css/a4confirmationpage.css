@@ -1,0 +1,648 @@
+/* screen - a4confirmationpage */
+
+.a4confirmationpage {
+  align-items: flex-start;
+  background-color: var(--cultured-pearl);
+  display: flex;
+  height: 1024px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.a4confirmationpage .overlap-group1 {
+  height: 1030px;
+  margin-left: -3px;
+  position: relative;
+  width: 1443px;
+}
+
+.a4confirmationpage .overlap-group {
+  height: 80px;
+  left: 3px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.a4confirmationpage .top-bar-tours {
+  align-items: center;
+  background-color: var(--ultramarine);
+  display: flex;
+  height: 80px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1440px;
+  padding: 0 40px;
+  position: absolute;
+  top: 0;
+}
+
+.a4confirmationpage .search-bar {
+  align-items: center;
+  background-color: var(--black-haze);
+  border-radius: 15.5px;
+  display: flex;
+  height: 35px;
+  margin-top: 1.0px;
+  min-width: 242px;
+  padding: 7px 16px;
+}
+
+.a4confirmationpage .search {
+  letter-spacing: 0;
+  line-height: 19px;
+  min-height: 19px;
+  min-width: 54px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .icon-search {
+  align-self: flex-end;
+  height: 20px;
+  margin-left: 140px;
+  width: 16px;
+}
+
+.a4confirmationpage .group-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 52px;
+  margin-left: 114px;
+  min-width: 82px;
+}
+
+.a4confirmationpage .profile {
+  height: 55px;
+  margin-left: -1px;
+  margin-top: -1px;
+  width: 55px;
+}
+
+.a4confirmationpage .angle-down {
+  align-self: center;
+  height: 29px;
+  margin-left: 10px;
+  margin-top: 3.0px;
+  width: 18px;
+}
+
+.a4confirmationpage .icon-notifications {
+  height: 30px;
+  left: 1262px;
+  position: absolute;
+  top: 25px;
+  width: 24px;
+}
+
+.a4confirmationpage .pik-pngcom_white-grid-png_1713082 {
+  height: 33px;
+  left: 22px;
+  position: absolute;
+  top: 23px;
+  width: 160px;
+}
+
+.a4confirmationpage .rectangle {
+  background-color: var(--white);
+  border-radius: 4px;
+  box-shadow: 8px 8px 16px #d7d7d780 , -8px -8px 16px #d7d7d780;
+  height: 791px;
+  left: 323px;
+  position: absolute;
+  top: 120px;
+  width: 1080px;
+}
+
+.a4confirmationpage .yes-no {
+  align-items: center;
+  display: flex;
+  height: 36px;
+  left: 363px;
+  min-width: 720px;
+  position: absolute;
+  top: 835px;
+}
+
+.a4confirmationpage .remote-access-requir {
+  font-weight: 600;
+  height: 36px;
+  letter-spacing: 0;
+  line-height: 21px;
+  width: 460px;
+}
+
+.a4confirmationpage .group-6 {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  margin-bottom: 2.0px;
+  margin-left: 153px;
+  min-width: 47px;
+}
+
+.a4confirmationpage .group-5 {
+  align-items: flex-start;
+  background-color: var(--smalt);
+  border-radius: 4px;
+  display: flex;
+  height: 16px;
+  justify-content: flex-end;
+  min-width: 16px;
+  padding: 1px 0;
+}
+
+.a4confirmationpage .check {
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 13px;
+  min-height: 13px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .yes {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 8px;
+  min-height: 20px;
+  min-width: 25px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .group-6-1 {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  margin-bottom: 2.0px;
+  margin-left: 16px;
+  min-width: 44px;
+}
+
+.a4confirmationpage .group-5-1 {
+  background-color: var(--white);
+  border-radius: 4px;
+  height: 16px;
+  width: 16px;
+}
+
+.a4confirmationpage .place {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 8px;
+  min-height: 20px;
+  min-width: 22px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .alert-message {
+  align-items: flex-start;
+  background-color: var(--lochmara-2);
+  border-radius: 4px;
+  display: flex;
+  height: 116px;
+  left: 363px;
+  min-width: 720px;
+  padding: 0 12px;
+  position: absolute;
+  top: 701px;
+}
+
+.a4confirmationpage .info-circle {
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: 12px;
+  min-height: 21px;
+  min-width: 22px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .flex-col {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+  min-height: 92px;
+  width: 668px;
+}
+
+.a4confirmationpage .you-will-be-provisio {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 60px;
+  width: 668px;
+}
+
+.a4confirmationpage .multi-factor-authent {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 12px;
+  min-height: 20px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .buttons {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 1163px;
+  min-height: 120px;
+  position: absolute;
+  top: 160px;
+  width: 200px;
+}
+
+.a4confirmationpage .confirm {
+  align-items: center;
+  background-color: var(--smalt);
+  border-radius: 4px;
+  display: flex;
+  height: 50px;
+  justify-content: flex-end;
+  min-width: 200px;
+  padding: 0 67px;
+}
+
+.a4confirmationpage .confirm-1 {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 18px;
+  min-width: 65px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .edit {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 4px;
+  display: flex;
+  height: 50px;
+  margin-top: 20px;
+  min-width: 200px;
+  padding: 14px 15px;
+}
+
+.a4confirmationpage .save-and-finish-late {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 18px;
+  min-width: 167px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .yes-no-1 {
+  align-items: center;
+  display: flex;
+  height: 36px;
+  left: 363px;
+  min-width: 720px;
+  position: absolute;
+  top: 160px;
+}
+
+.a4confirmationpage .yes-1 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 8px;
+  min-height: 20px;
+  min-width: 25px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .rectangle-1 {
+  background-color: var(--white);
+  height: 20px;
+  left: 972px;
+  position: absolute;
+  top: 652px;
+  width: 111px;
+}
+
+.a4confirmationpage .yes-no-2 {
+  align-items: center;
+  display: flex;
+  height: 36px;
+  left: 363px;
+  min-width: 720px;
+  position: absolute;
+  top: 272px;
+}
+
+.a4confirmationpage .yes-2 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 8px;
+  min-height: 20px;
+  min-width: 25px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .yes-no-3 {
+  align-items: center;
+  display: flex;
+  height: 36px;
+  left: 363px;
+  min-width: 720px;
+  position: absolute;
+  top: 216px;
+}
+
+.a4confirmationpage .yes-3 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 8px;
+  min-height: 20px;
+  min-width: 25px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .group-7 {
+  align-items: flex-start;
+  display: flex;
+  height: 20px;
+  left: 976px;
+  min-width: 107px;
+  position: absolute;
+  top: 279px;
+}
+
+.a4confirmationpage .group-6-2 {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  min-width: 47px;
+}
+
+.a4confirmationpage .yes-4 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 8px;
+  min-height: 20px;
+  min-width: 25px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .group-6-3 {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  margin-left: 16px;
+  min-width: 44px;
+}
+
+.a4confirmationpage .group-7-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 20px;
+  left: 976px;
+  min-width: 107px;
+  position: absolute;
+  top: 842px;
+}
+
+.a4confirmationpage .yes-5 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 8px;
+  min-height: 20px;
+  min-width: 25px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .yes-no-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 42px;
+  left: 363px;
+  min-width: 720px;
+  position: absolute;
+  top: 475px;
+}
+
+.a4confirmationpage .will-your-new-hire-b {
+  font-weight: 600;
+  height: 42px;
+  letter-spacing: 0;
+  line-height: 21px;
+  width: 420px;
+}
+
+.a4confirmationpage .group-7-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  display: flex;
+  height: 36px;
+  margin-left: 193px;
+  margin-top: 1px;
+  min-width: 107px;
+  padding: 7px 0;
+}
+
+.a4confirmationpage .yes-6 {
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-left: 8px;
+  min-height: 20px;
+  min-width: 25px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .alert-message-1 {
+  align-items: flex-start;
+  background-color: var(--lochmara-2);
+  border-radius: 4px;
+  display: flex;
+  height: 128px;
+  left: 363px;
+  min-width: 720px;
+  padding: 0 12px;
+  position: absolute;
+  top: 328px;
+}
+
+.a4confirmationpage .flex-col-1 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+  min-height: 104px;
+  width: 668px;
+}
+
+.a4confirmationpage .the-current-standard {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 40px;
+  width: 668px;
+}
+
+.a4confirmationpage .remote-access-z-sc {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 12px;
+  min-height: 20px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .applications-current {
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: 12px;
+  min-height: 20px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .path-7 {
+  height: 712px;
+  left: 1122px;
+  position: absolute;
+  top: 160px;
+  width: 2px;
+}
+
+.a4confirmationpage .text-field-row {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 363px;
+  min-height: 124px;
+  position: absolute;
+  top: 537px;
+  width: 720px;
+}
+
+.a4confirmationpage .user-id {
+  font-weight: 600;
+  height: 36px;
+  letter-spacing: 0;
+  line-height: 20px;
+  width: 475px;
+}
+
+.a4confirmationpage .text-field {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 2px;
+  display: flex;
+  height: 80px;
+  margin-top: 8px;
+  min-width: 720px;
+  padding: 6px 11px;
+}
+
+.a4confirmationpage .robert-goldman {
+  letter-spacing: 0;
+  line-height: 23px;
+  min-height: 23px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .side-panel {
+  height: 955px;
+  left: 0;
+  position: absolute;
+  top: 75px;
+  width: 292px;
+}
+
+.a4confirmationpage .rectangle-2 {
+  background-color: var(--fuscous-gray-3);
+  height: 1024px;
+  left: 3px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.a4confirmationpage .group-3 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 6px;
+  box-shadow: 4px 4px 8px #6c686840 , -4px -4px 8px #6c676740;
+  display: flex;
+  flex-direction: column;
+  left: 419px;
+  min-height: 543px;
+  position: absolute;
+  top: 241px;
+  width: 608px;
+}
+
+.a4confirmationpage .overlap-group-1 {
+  align-items: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b64eac459d197e274db9/img/4--confirmation-page-skyblue-bkg-0F229B3B-9E8A-4F90-9A44-315D399045B7.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 308px;
+  min-width: 608px;
+  padding: 0 194px;
+}
+
+.a4confirmationpage .feedback-confirmation-illustration {
+  height: 188px;
+  width: 220px;
+}
+
+.a4confirmationpage .title {
+  color: var(--black);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-xxxl);
+  letter-spacing: 0;
+  line-height: 31px;
+  margin-left: 2.0px;
+  margin-top: 39px;
+  min-height: 31px;
+  min-width: 126px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .we-will-reach-out-to {
+  color: var(--black);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-xxxl2);
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-left: 2.0px;
+  margin-top: 20px;
+  min-height: 24px;
+  min-width: 450px;
+  white-space: nowrap;
+}
+
+.a4confirmationpage .group {
+  align-items: center;
+  background-color: #0702471c;
+  border-radius: 26px;
+  cursor: pointer;
+  display: flex;
+  height: 52px;
+  justify-content: flex-end;
+  margin-top: 20px;
+  min-width: 448px;
+  padding: 0 22px;
+}
+
+.a4confirmationpage .go-to-new-joiner-tec {
+  color: var(--stratos);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-xxxl2);
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 28px;
+  min-height: 28px;
+  min-width: 402px;
+  white-space: nowrap;
+}

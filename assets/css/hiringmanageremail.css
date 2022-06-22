@@ -1,0 +1,1800 @@
+/* screen - hiringmanageremail */
+
+.hiringmanageremail {
+  background-color: var(--white);
+  height: 1018px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.hiringmanageremail .edge-mac-os-browser {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1024px;
+  padding: 8px 13px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.hiringmanageremail .flex-row {
+  align-items: center;
+  display: flex;
+  min-width: 324px;
+}
+
+.hiringmanageremail .system-icons {
+  display: flex;
+  margin-bottom: 7.0px;
+  width: 52px;
+}
+
+.hiringmanageremail .close-icon {
+  background-color: var(--sunset-orange);
+  border-radius: 12px;
+  height: 12px;
+  width: 12px;
+}
+
+.hiringmanageremail .minimise-icon {
+  background-color: var(--saffron);
+  border-radius: 12px;
+  height: 12px;
+  margin-left: 8px;
+  width: 12px;
+}
+
+.hiringmanageremail .full-screen-icon {
+  background-color: var(--malachite);
+  border-radius: 12px;
+  height: 12px;
+  margin-left: 8px;
+  width: 12px;
+}
+
+.hiringmanageremail .active-tab {
+  align-items: center;
+  display: flex;
+  margin-left: 23px;
+  min-width: 216px;
+}
+
+.hiringmanageremail .favicon {
+  align-items: flex-start;
+  display: flex;
+  min-width: 16px;
+}
+
+.hiringmanageremail .flaticon1575540232-svg {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-path-B97AC43A-AFE3-4625-B617-4E56350B4AF4@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 15px;
+  min-width: 16px;
+  padding: 2px;
+}
+
+.hiringmanageremail .path {
+  height: 4px;
+  width: 4px;
+}
+
+.hiringmanageremail .overlap-group {
+  height: 33px;
+  margin-left: 6px;
+  position: relative;
+  width: 184px;
+}
+
+.hiringmanageremail .tab-label {
+  background-color: var(--black-haze-2);
+  display: flex;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 184px;
+}
+
+.hiringmanageremail .tab-title {
+  height: 15px;
+  letter-spacing: 0.20px;
+  line-height: 15px;
+  margin-left: 4px;
+  margin-top: 8px;
+  white-space: nowrap;
+  width: 43.2px;
+}
+
+.hiringmanageremail .fade-overlay {
+  background: linear-gradient(90deg, rgba(247,247,247,0.00) 0%, #F7F7F7 81%);
+  height: 33px;
+  left: 160px;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.hiringmanageremail .icon-close {
+  height: 8px;
+  margin-left: 3px;
+  margin-top: 1.0px;
+  width: 8px;
+}
+
+.hiringmanageremail .new-tab-icon {
+  height: 13px;
+  margin-bottom: 2.0px;
+  margin-left: 20px;
+  width: 13px;
+}
+
+.hiringmanageremail .flex-row-1 {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  margin-right: 1.0px;
+  margin-top: 5px;
+  min-width: 1399px;
+}
+
+.hiringmanageremail .arrow-left {
+  height: 15px;
+  margin-bottom: 1.0px;
+  width: 16px;
+}
+
+.hiringmanageremail .arrow-right {
+  height: 15px;
+  margin-bottom: 1.0px;
+  margin-left: 28px;
+  width: 16px;
+}
+
+.hiringmanageremail .reload-icon {
+  height: 16px;
+  margin-left: 28px;
+  width: 16px;
+}
+
+.hiringmanageremail .address-bar {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px #00000014;
+  display: flex;
+  height: 30px;
+  justify-content: flex-end;
+  margin-left: 20px;
+  min-width: 1104px;
+  padding: 0 11px;
+}
+
+.hiringmanageremail .icon-lock {
+  height: 16px;
+  width: 12px;
+}
+
+.hiringmanageremail .https {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 16px;
+  min-height: 18px;
+  white-space: nowrap;
+  width: 46px;
+}
+
+.hiringmanageremail .type-url-here {
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 18px;
+  white-space: nowrap;
+  width: 109px;
+}
+
+.hiringmanageremail .icon-star {
+  height: 16px;
+  margin-left: 877px;
+  width: 17px;
+}
+
+.hiringmanageremail .icon-star-1 {
+  height: 16px;
+  margin-left: 20px;
+  width: 17px;
+}
+
+.hiringmanageremail .user-icon {
+  align-items: flex-end;
+  background-color: var(--alto);
+  border-radius: 24px;
+  display: flex;
+  height: 24px;
+  margin-left: 25px;
+  min-width: 24px;
+  padding: 0 3px;
+}
+
+.hiringmanageremail .icon-user {
+  height: 20px;
+  width: 17px;
+}
+
+.hiringmanageremail .feedback-icon {
+  height: 16px;
+  margin-left: 26px;
+  width: 16px;
+}
+
+.hiringmanageremail .more-icon {
+  height: 2px;
+  margin-left: 29px;
+  width: 14px;
+}
+
+.hiringmanageremail .icon-lock-1 {
+  height: 16px;
+  width: 12px;
+}
+
+.hiringmanageremail .overlap-group23 {
+  height: 911px;
+  left: -2px;
+  position: absolute;
+  top: 130px;
+  width: 1442px;
+}
+
+.hiringmanageremail .overlap-group22 {
+  height: 911px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1442px;
+}
+
+.hiringmanageremail .overlap-group20 {
+  height: 894px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1442px;
+}
+
+.hiringmanageremail .email-background {
+  background-color: var(--hint-of-red);
+  height: 849px;
+  left: 568px;
+  position: absolute;
+  top: 45px;
+  width: 875px;
+}
+
+.hiringmanageremail .email-background-1 {
+  background-color: var(--white-2);
+  border-radius: 1px;
+  height: 796px;
+  left: 575px;
+  position: absolute;
+  top: 98px;
+  width: 813px;
+}
+
+.hiringmanageremail .email-body {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 608px;
+  min-height: 352px;
+  position: absolute;
+  top: 222px;
+  width: 724px;
+}
+
+.hiringmanageremail .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 87px;
+  width: 573px;
+}
+
+.hiringmanageremail .action-required {
+  height: 30px;
+  width: 126px;
+}
+
+.hiringmanageremail .start-new-hire-order {
+  letter-spacing: 0;
+  line-height: 37px;
+  margin-top: 20px;
+  min-height: 37px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 20px;
+  min-width: 724px;
+}
+
+.hiringmanageremail .undraw_-team_re_0bfe {
+  height: 200px;
+  width: 220px;
+}
+
+.hiringmanageremail .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  min-height: 165px;
+  width: 484px;
+}
+
+.hiringmanageremail .john-doe-is-joinin {
+  color: var(--scarpa-flow);
+  line-height: 20px;
+  min-height: 40px;
+  width: 484px;
+}
+
+.hiringmanageremail .rectangle-1 {
+  align-items: center;
+  background-color: var(--ultramarine);
+  border-radius: 2px;
+  cursor: pointer;
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  margin-top: 20px;
+  min-width: 339px;
+  padding: 0 23.0px;
+}
+
+.hiringmanageremail .get-started {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 21px;
+  min-height: 21px;
+  min-width: 279px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .chevron-right {
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 14px;
+  margin-left: 3px;
+  margin-top: 3.0px;
+  min-height: 14px;
+  min-width: 11px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .if-you-have-any-inqu {
+  color: var(--scarpa-flow);
+  line-height: 20px;
+  margin-top: 20px;
+  min-height: 40px;
+  width: 484px;
+}
+
+.hiringmanageremail .best-regards-nation {
+  color: var(--scarpa-flow);
+  line-height: 20px;
+  margin-top: 5px;
+  min-height: 40px;
+  width: 677px;
+}
+
+.hiringmanageremail .email-actions {
+  align-items: center;
+  display: flex;
+  height: 16px;
+  justify-content: flex-end;
+  left: 1236px;
+  min-width: 125px;
+  padding: 0 1px;
+  position: absolute;
+  top: 126px;
+}
+
+.hiringmanageremail .iconuirestart {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-shape-2CCAE826-B5B7-4585-90A5-EAB5CEA48A81@2x.png);
+  background-size: 100% 100%;
+  height: 16px;
+  width: 12px;
+}
+
+.hiringmanageremail .iconuirestart-copy {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 24px;
+  min-width: 16px;
+}
+
+.hiringmanageremail .path-13 {
+  height: 8px;
+  width: 4px;
+}
+
+.hiringmanageremail .shape {
+  height: 16px;
+  width: 12px;
+}
+
+.hiringmanageremail .combined-shape {
+  align-self: flex-end;
+  height: 15px;
+  margin-left: 16px;
+  width: 18px;
+}
+
+.hiringmanageremail .icon-more {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-more-E0AE9BC4-5B5D-4BAB-AD7D-CD3E5BFC51FA@2x.png);
+  background-size: 100% 100%;
+  height: 2px;
+  margin-left: 22px;
+  width: 14px;
+}
+
+.hiringmanageremail .email-address {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 640px;
+  min-height: 74px;
+  position: absolute;
+  top: 108px;
+  width: 247px;
+}
+
+.hiringmanageremail .lorem-ipsum-no_repl {
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 40px;
+  width: 247px;
+}
+
+.hiringmanageremail .overlap-group1 {
+  height: 33px;
+  margin-top: 1px;
+  position: relative;
+  width: 247px;
+}
+
+.hiringmanageremail .thu-6182020-449-p {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 17px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 247px;
+}
+
+.hiringmanageremail .to {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 17px;
+  position: absolute;
+  top: 16px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .john-doe-johndoegm {
+  left: 23px;
+  letter-spacing: 0;
+  line-height: 17px;
+  position: absolute;
+  top: 16px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .icon-contact-3 {
+  align-items: center;
+  background-color: var(--royal-blue);
+  border-radius: 40px;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  left: 588px;
+  min-width: 40px;
+  padding: 0 13.0px;
+  position: absolute;
+  top: 111px;
+}
+
+.hiringmanageremail .a {
+  letter-spacing: 0;
+  line-height: 22px;
+  min-height: 22px;
+  min-width: 14px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .inbox-preview-background {
+  background-color: var(--hint-of-red);
+  height: 517px;
+  left: 216px;
+  position: absolute;
+  top: 101px;
+  width: 352px;
+}
+
+.hiringmanageremail .secondary-nav-background {
+  background-color: var(--concrete);
+  height: 44px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.hiringmanageremail .menu-panel {
+  background-color: var(--concrete);
+  height: 575px;
+  left: 2px;
+  position: absolute;
+  top: 43px;
+  width: 214px;
+}
+
+.hiringmanageremail .inbox-preview-header {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  left: 216px;
+  min-height: 56px;
+  position: absolute;
+  top: 45px;
+  width: 351px;
+}
+
+.hiringmanageremail .flex-row-3 {
+  align-items: center;
+  display: flex;
+  margin-left: 3.0px;
+  margin-top: 19px;
+  min-width: 320px;
+}
+
+.hiringmanageremail .icon-check {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-combined-shape-B9DCC088-0033-4D19-85E0-A656A2C8FDE1@2x.png);
+  background-size: 100% 100%;
+  height: 17px;
+  margin-bottom: 1.0px;
+  width: 17px;
+}
+
+.hiringmanageremail .overlap-group2 {
+  height: 22px;
+  margin-left: 18px;
+  position: relative;
+  width: 71px;
+}
+
+.hiringmanageremail .inbox {
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 57px;
+}
+
+.hiringmanageremail .icon-star-2 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-star-17B59844-DE2C-4BD1-B1E0-936916A38447@2x.png);
+  background-size: 100% 100%;
+  height: 16px;
+  left: 55px;
+  position: absolute;
+  top: 5px;
+  width: 16px;
+}
+
+.hiringmanageremail .overlap-group3 {
+  align-self: flex-end;
+  height: 19px;
+  margin-left: 157px;
+  position: relative;
+  width: 57px;
+}
+
+.hiringmanageremail .filter {
+  color: var(--lochmara-3);
+  left: 0;
+  line-height: 19px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 57px;
+}
+
+.hiringmanageremail .icon-arrow-down {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-arrow-down-81CFEEF6-6E75-4E54-AD05-C9043AADDAE7@2x.png);
+  background-size: 100% 100%;
+  height: 8px;
+  left: 35px;
+  position: absolute;
+  top: 6px;
+  width: 13px;
+}
+
+.hiringmanageremail .line-2-1 {
+  height: 2px;
+  margin-right: 1.0px;
+  margin-top: 14px;
+  width: 351px;
+}
+
+.hiringmanageremail .notes {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 18px;
+  min-width: 76px;
+  position: absolute;
+  top: 448px;
+}
+
+.hiringmanageremail .icon-notes {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-notes-7C0AADA6-68E1-4BC1-A8D3-5861EDB7BA25@2x.png);
+  background-size: 100% 100%;
+  height: 13px;
+  margin-bottom: 2.0px;
+  width: 13px;
+}
+
+.hiringmanageremail .notes-1 {
+  color: var(--mine-shaft);
+  line-height: 19px;
+  margin-left: 24px;
+  min-height: 19px;
+  min-width: 39px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .archive {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 18px;
+  min-width: 85px;
+  position: absolute;
+  top: 408px;
+}
+
+.hiringmanageremail .icon-archive {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-archive-D9FDEF59-8F2E-4287-B304-D8E3619DB6ED@2x.png);
+  background-size: 100% 100%;
+  height: 13px;
+  margin-bottom: 2.0px;
+  width: 15px;
+}
+
+.hiringmanageremail .archive-1 {
+  color: var(--mine-shaft);
+  line-height: 19px;
+  margin-left: 23px;
+  min-height: 19px;
+  min-width: 48px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .deleted-items {
+  align-items: flex-start;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 18px;
+  min-width: 169px;
+  position: absolute;
+  top: 368px;
+}
+
+.hiringmanageremail .icon-trash {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-combined-shape-00F45BC4-FF32-4207-96FE-BF78589175C6@2x.png);
+  background-size: 100% 100%;
+  height: 15px;
+  margin-top: 1px;
+  width: 13px;
+}
+
+.hiringmanageremail .deleted-items-1 {
+  color: var(--mine-shaft);
+  line-height: 19px;
+  margin-left: 24px;
+  min-height: 19px;
+  min-width: 88px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .number {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 19px;
+  margin-left: 32px;
+  min-height: 19px;
+  min-width: 11px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .schedule {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 18px;
+  min-width: 104px;
+  position: absolute;
+  top: 328px;
+}
+
+.hiringmanageremail .icon-clock {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-clock-A0E80894-FAC3-4E00-8A82-6CCFB41F241E@2x.png);
+  background-size: 100% 100%;
+  height: 13px;
+  width: 13px;
+}
+
+.hiringmanageremail .scheduled {
+  color: var(--mine-shaft);
+  line-height: 19px;
+  margin-left: 24px;
+  min-height: 19px;
+  min-width: 67px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .sent-items {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  left: 20px;
+  min-width: 103px;
+  position: absolute;
+  top: 288px;
+}
+
+.hiringmanageremail .icon-sent {
+  height: 14px;
+  margin-bottom: 2.0px;
+  margin-left: -2px;
+  width: 14px;
+}
+
+.hiringmanageremail .sent-items-1 {
+  color: var(--mine-shaft);
+  line-height: 19px;
+  margin-left: 24px;
+  min-height: 19px;
+  min-width: 67px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .drafts {
+  align-items: flex-start;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 20px;
+  min-width: 76px;
+  position: absolute;
+  top: 248px;
+}
+
+.hiringmanageremail .icon-junk-copy {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-fill-1009-3E283C7A-3079-49A1-9D36-06E05E760985@2x.png);
+  background-size: 100% 100%;
+  height: 14px;
+  margin-top: 1px;
+  width: 14px;
+}
+
+.hiringmanageremail .drafts-1 {
+  color: var(--mine-shaft);
+  line-height: 19px;
+  margin-left: 22px;
+  min-height: 19px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .junk-mail {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 18px;
+  min-width: 169px;
+  position: absolute;
+  top: 208px;
+}
+
+.hiringmanageremail .icon-junk {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-combined-shape-2CAE8B89-D066-418B-9A2D-D3B6D088BAF2@2x.png);
+  background-size: 100% 100%;
+  height: 13px;
+  margin-bottom: 2.0px;
+  width: 13px;
+}
+
+.hiringmanageremail .junk-email {
+  color: var(--mine-shaft);
+  line-height: 19px;
+  margin-left: 25px;
+  min-height: 19px;
+  min-width: 67px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .number-1 {
+  color: var(--mine-shaft);
+  line-height: 19px;
+  margin-left: 53px;
+  min-height: 19px;
+  min-width: 10px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .inbox-1 {
+  align-items: center;
+  background-color: var(--tropical-blue);
+  display: flex;
+  height: 40px;
+  left: 2px;
+  min-width: 213px;
+  padding: 10px 16px;
+  position: absolute;
+  top: 157px;
+}
+
+.hiringmanageremail .icon-inbox {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-inbox-AEB35EEE-9306-41B8-975B-FA7DCAB5A972@2x.png);
+  background-size: 100% 100%;
+  height: 13px;
+  margin-top: 1.0px;
+  width: 14px;
+}
+
+.hiringmanageremail .inbox-2 {
+  align-self: flex-end;
+  color: var(--endeavour);
+  line-height: 19px;
+  margin-left: 26px;
+  min-height: 19px;
+  min-width: 37px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .folders {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 18px;
+  min-width: 86px;
+  position: absolute;
+  top: 122px;
+}
+
+.hiringmanageremail .icon-arrow-down-1 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-arrow-down-2176A6B6-A459-4B47-881B-03D1779A31C2@2x.png);
+  background-size: 100% 100%;
+  height: 8px;
+  margin-top: 3.0px;
+  width: 13px;
+}
+
+.hiringmanageremail .folders-1 {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 19px;
+  margin-left: 23px;
+  min-height: 19px;
+  min-width: 50px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .favorites {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 18px;
+  min-width: 93px;
+  position: absolute;
+  top: 66px;
+}
+
+.hiringmanageremail .icon-arrow-up {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-arrow-up-671A3220-E863-4B77-A377-A65316CA633E@2x.png);
+  background-size: 100% 100%;
+  height: 13px;
+  margin-top: 2.0px;
+  width: 8px;
+}
+
+.hiringmanageremail .favorites-1 {
+  color: var(--mine-shaft);
+  line-height: 19px;
+  margin-left: 25px;
+  min-height: 19px;
+  min-width: 57px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .email-5 {
+  align-items: flex-start;
+  display: flex;
+  height: 81px;
+  justify-content: center;
+  left: 216px;
+  min-width: 335px;
+  position: absolute;
+  top: 587px;
+}
+
+.hiringmanageremail .overlap-group-1 {
+  height: 82px;
+  margin-top: -0.5px;
+  position: relative;
+  width: 338px;
+}
+
+.hiringmanageremail .overlap-group-2 {
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 338px;
+}
+
+.hiringmanageremail .rectangle {
+  background-color: var(--white);
+  height: 81px;
+  left: 2px;
+  position: absolute;
+  top: 0;
+  width: 333px;
+}
+
+.hiringmanageremail .icon-contact {
+  align-items: center;
+  background-color: var(--royal-blue);
+  border-radius: 28px;
+  display: flex;
+  height: 28px;
+  left: 14px;
+  min-width: 28px;
+  padding: 0 8px;
+  position: absolute;
+  top: 16px;
+}
+
+.hiringmanageremail .a-1 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 11px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .line-2 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 80px;
+  width: 338px;
+}
+
+.hiringmanageremail .line-2-copy-3 {
+  height: 2px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 334px;
+}
+
+.hiringmanageremail .message {
+  left: 54px;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: absolute;
+  top: 28px;
+  width: 263px;
+}
+
+.hiringmanageremail .date {
+  left: 246px;
+  letter-spacing: 0;
+  line-height: 16px;
+  position: absolute;
+  top: 32px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .from {
+  left: 54px;
+  letter-spacing: 0;
+  line-height: 21px;
+  position: absolute;
+  top: 8px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .email-4 {
+  align-items: flex-start;
+  display: flex;
+  height: 81px;
+  justify-content: center;
+  left: 216px;
+  min-width: 335px;
+  position: absolute;
+  top: 507px;
+}
+
+.hiringmanageremail .icon-contact-1 {
+  align-items: center;
+  background-color: var(--orange-roughy);
+  border-radius: 28px;
+  display: flex;
+  height: 28px;
+  justify-content: flex-end;
+  left: 14px;
+  min-width: 28px;
+  padding: 0 10.0px;
+  position: absolute;
+  top: 16px;
+}
+
+.hiringmanageremail .a-2 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 8px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .email-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 81px;
+  justify-content: center;
+  left: 216px;
+  min-width: 335px;
+  position: absolute;
+  top: 385px;
+}
+
+.hiringmanageremail .a-3 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 11px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .email-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 81px;
+  justify-content: center;
+  left: 216px;
+  min-width: 335px;
+  position: absolute;
+  top: 262px;
+}
+
+.hiringmanageremail .icon-contact-2 {
+  align-items: center;
+  background-color: var(--hollywood-cerise);
+  border-radius: 28px;
+  display: flex;
+  height: 28px;
+  left: 14px;
+  min-width: 28px;
+  padding: 0 9px;
+  position: absolute;
+  top: 16px;
+}
+
+.hiringmanageremail .a-4 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 9px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .email-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 81px;
+  justify-content: center;
+  left: 216px;
+  min-width: 335px;
+  position: absolute;
+  top: 182px;
+}
+
+.hiringmanageremail .icon-contact-4 {
+  align-items: flex-start;
+  background-color: var(--potters-clay);
+  border-radius: 28px;
+  display: flex;
+  height: 28px;
+  left: 14px;
+  min-width: 28px;
+  padding: 6px 8px;
+  position: absolute;
+  top: 16px;
+}
+
+.hiringmanageremail .a-5 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 14px;
+  min-width: 11px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .component-email-selected {
+  align-items: flex-start;
+  background-color: var(--tropical-blue);
+  display: flex;
+  height: 81px;
+  justify-content: flex-end;
+  left: 216px;
+  min-width: 332px;
+  padding: 7px 17.0px;
+  position: absolute;
+  top: 101px;
+}
+
+.hiringmanageremail .oval {
+  align-self: center;
+  background-color: var(--white);
+  border-radius: 16px;
+  height: 17px;
+  margin-bottom: 23.0px;
+  width: 17px;
+}
+
+.hiringmanageremail .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  min-height: 63px;
+  width: 263px;
+}
+
+.hiringmanageremail .lorem-ipsum {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-bottom: -2px;
+  min-height: 19px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .sed-ut-perspiciatis {
+  letter-spacing: 0;
+  line-height: 21px;
+  margin-top: 2px;
+  min-height: 42px;
+  width: 263px;
+}
+
+.hiringmanageremail .line-7 {
+  height: 575px;
+  left: 215px;
+  position: absolute;
+  top: 44px;
+  width: 2px;
+}
+
+.hiringmanageremail .line-7-1 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  top: 44px;
+  width: 1126px;
+}
+
+.hiringmanageremail .rectangle-2 {
+  background-color: var(--cloud);
+  border-radius: 3px;
+  height: 154px;
+  left: 1396px;
+  position: absolute;
+  top: 108px;
+  width: 6px;
+}
+
+.hiringmanageremail .line-3 {
+  height: 575px;
+  left: 566px;
+  position: absolute;
+  top: 44px;
+  width: 2px;
+}
+
+.hiringmanageremail .more {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-more-E0AE9BC4-5B5D-4BAB-AD7D-CD3E5BFC51FA@2x.png);
+  background-size: 100% 100%;
+  height: 2px;
+  left: 1014px;
+  position: absolute;
+  top: 21px;
+  width: 14px;
+}
+
+.hiringmanageremail .undo {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  justify-content: flex-end;
+  left: 928px;
+  min-width: 61px;
+  padding: 1px 0;
+  position: absolute;
+  top: 8px;
+}
+
+.hiringmanageremail .iconuirestart-1 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-shape-7B5C386B-2530-49DC-ABBE-46AE8906D2C3@2x.png);
+  background-size: 100% 100%;
+  height: 16px;
+  transform: rotate(-47deg);
+  width: 12px;
+}
+
+.hiringmanageremail .undo-1 {
+  align-self: flex-end;
+  color: var(--cloud);
+  line-height: 19px;
+  margin-left: 9px;
+  min-height: 19px;
+  min-width: 36px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .snooze {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 820px;
+  min-width: 93px;
+  padding: 0 1px;
+  position: absolute;
+  top: 12px;
+}
+
+.hiringmanageremail .icon-arrow-down-copy-5 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-clock-A46CEFB4-5CCA-462A-8A94-B7105836BF58@2x.png);
+  background-size: 100% 100%;
+  height: 13px;
+  margin-top: 2.0px;
+  width: 13px;
+}
+
+.hiringmanageremail .snooze-1 {
+  color: var(--endeavour);
+  line-height: 19px;
+  margin-left: 10px;
+  min-height: 19px;
+  min-width: 48px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .icon-arrow-down-copy-5-1 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-arrow-down-81CFEEF6-6E75-4E54-AD05-C9043AADDAE7@2x.png);
+  background-size: 100% 100%;
+  height: 8px;
+  margin-left: 6px;
+  margin-top: 1.0px;
+  width: 13px;
+}
+
+.hiringmanageremail .categorize {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  left: 690px;
+  min-width: 113px;
+  position: absolute;
+  top: 12px;
+}
+
+.hiringmanageremail .icon-label {
+  height: 16px;
+  margin-bottom: 1.0px;
+  width: 17px;
+}
+
+.hiringmanageremail .categorize-1 {
+  color: var(--endeavour);
+  line-height: 19px;
+  margin-left: 8px;
+  min-height: 19px;
+  min-width: 69px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .icon-arrow-down-copy-4 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-arrow-down-81CFEEF6-6E75-4E54-AD05-C9043AADDAE7@2x.png);
+  background-size: 100% 100%;
+  height: 8px;
+  margin-left: 4px;
+  margin-top: 1.0px;
+  width: 13px;
+}
+
+.hiringmanageremail .move {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  left: 576px;
+  min-width: 98px;
+  position: absolute;
+  top: 12px;
+}
+
+.hiringmanageremail .combined-shape-1 {
+  height: 13px;
+  margin-bottom: 2.0px;
+  width: 17px;
+}
+
+.hiringmanageremail .move-to {
+  color: var(--endeavour);
+  line-height: 19px;
+  margin-left: 8px;
+  min-height: 19px;
+  white-space: nowrap;
+  width: 57px;
+}
+
+.hiringmanageremail .icon-arrow-down-copy-3 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-arrow-down-81CFEEF6-6E75-4E54-AD05-C9043AADDAE7@2x.png);
+  background-size: 100% 100%;
+  height: 8px;
+  margin-left: 2px;
+  margin-top: 1.0px;
+  width: 13px;
+}
+
+.hiringmanageremail .sweep {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  left: 492px;
+  min-width: 65px;
+  position: absolute;
+  top: 12px;
+}
+
+.hiringmanageremail .icon-sweep {
+  height: 17px;
+  width: 17px;
+}
+
+.hiringmanageremail .sweep-1 {
+  color: var(--endeavour);
+  line-height: 19px;
+  margin-left: 7px;
+  min-height: 19px;
+  min-width: 43px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .junk {
+  align-items: center;
+  display: flex;
+  height: 20px;
+  justify-content: flex-end;
+  left: 398px;
+  min-width: 75px;
+  padding: 0 1px;
+  position: absolute;
+  top: 12px;
+}
+
+.hiringmanageremail .icon-arrow-down-copy {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-combined-shape-F66DFB63-A4EF-4502-B8B2-4407F4731415@2x.png);
+  background-size: 100% 100%;
+  height: 15px;
+  margin-bottom: 1.0px;
+  width: 15px;
+}
+
+.hiringmanageremail .junk-1 {
+  align-self: flex-start;
+  color: var(--endeavour);
+  line-height: 19px;
+  margin-left: 8px;
+  min-height: 19px;
+  min-width: 30px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .icon-arrow-down-2 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-arrow-down-81CFEEF6-6E75-4E54-AD05-C9043AADDAE7@2x.png);
+  background-size: 100% 100%;
+  height: 8px;
+  margin-left: 6px;
+  width: 13px;
+}
+
+.hiringmanageremail .archive-2 {
+  align-items: center;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 310px;
+  min-width: 82px;
+  position: absolute;
+  top: 12px;
+}
+
+.hiringmanageremail .icon-arrow-down-copy-2 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-archive-DE274E1C-AC87-469C-87C5-F882795B3778@2x.png);
+  background-size: 100% 100%;
+  height: 13px;
+  width: 15px;
+}
+
+.hiringmanageremail .archive-3 {
+  color: var(--endeavour);
+  line-height: 19px;
+  margin-left: 9px;
+  min-height: 19px;
+  white-space: nowrap;
+  width: 57px;
+}
+
+.hiringmanageremail .delete {
+  align-items: flex-start;
+  display: flex;
+  height: 19px;
+  justify-content: flex-end;
+  left: 226px;
+  min-width: 64px;
+  position: absolute;
+  top: 12px;
+}
+
+.hiringmanageremail .icon-arrow-down-copy-7 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-combined-shape-F34E41EE-B295-4D9B-87C6-696EA57034EE@2x.png);
+  background-size: 100% 100%;
+  height: 15px;
+  margin-top: 1px;
+  width: 13px;
+}
+
+.hiringmanageremail .delete-1 {
+  color: var(--endeavour);
+  line-height: 19px;
+  margin-left: 10px;
+  min-height: 19px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .button {
+  align-items: center;
+  background-color: var(--lochmara-3);
+  border-radius: 2px;
+  display: flex;
+  height: 31px;
+  justify-content: flex-end;
+  left: 50px;
+  min-width: 104px;
+  padding: 0 4.0px;
+  position: absolute;
+  top: 6px;
+}
+
+.hiringmanageremail .new-message {
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 19px;
+  min-height: 19px;
+  min-width: 93px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .icon-hamburger {
+  height: 9px;
+  left: 18px;
+  position: absolute;
+  top: 18px;
+  width: 16px;
+}
+
+.hiringmanageremail .overlap-group21 {
+  height: 81px;
+  left: 2px;
+  position: absolute;
+  top: 830px;
+  width: 548px;
+}
+
+.hiringmanageremail .panel-icons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 34px;
+  position: absolute;
+  top: 24px;
+  width: 214px;
+}
+
+.hiringmanageremail .line-6 {
+  height: 2px;
+  width: 215px;
+}
+
+.hiringmanageremail .icon-container {
+  align-items: center;
+  display: flex;
+  margin-left: 1.0px;
+  margin-top: 16px;
+  min-width: 175px;
+}
+
+.hiringmanageremail .icon-email {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-email-6C11332B-2D58-46B1-9742-290CA7E138B9@2x.png);
+  background-size: 100% 100%;
+  height: 10px;
+  margin-top: 2.0px;
+  width: 16px;
+}
+
+.hiringmanageremail .icon-calendar {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-calendar-1E90C1BD-8005-4D3D-BFCF-5E4A179A3709@2x.png);
+  background-size: 100% 100%;
+  height: 16px;
+  margin-left: 37px;
+  width: 16px;
+}
+
+.hiringmanageremail .icon-group {
+  align-self: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-group-063825D3-8429-44B6-99A7-ED2FF9625BF9@2x.png);
+  background-size: 100% 100%;
+  height: 15px;
+  margin-left: 38px;
+  width: 14px;
+}
+
+.hiringmanageremail .icon-more-1 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6297b486eb9d9819a5ebf750/releases/6297b7c8e264b08980cb737a/img/hiring-manager-email-icon-more-55A5DA9A-99E9-4D5D-9C02-65AEB716FD77@2x.png);
+  background-size: 100% 100%;
+  height: 2px;
+  margin-left: 40px;
+  margin-top: 2.0px;
+  width: 14px;
+}
+
+.hiringmanageremail .email-2-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 81px;
+  justify-content: center;
+  left: 213px;
+  min-width: 335px;
+  position: absolute;
+  top: 0;
+}
+
+.hiringmanageremail .a-6 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 9px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .email-5-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 81px;
+  justify-content: center;
+  left: 216px;
+  min-width: 335px;
+  position: absolute;
+  top: 749px;
+}
+
+.hiringmanageremail .a-7 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 11px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .email-4-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 81px;
+  justify-content: center;
+  left: 216px;
+  min-width: 335px;
+  position: absolute;
+  top: 668px;
+}
+
+.hiringmanageremail .a-8 {
+  letter-spacing: 0;
+  line-height: 16px;
+  min-height: 16px;
+  min-width: 8px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .subject-line {
+  left: 588px;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  top: 63px;
+  white-space: nowrap;
+}
+
+.hiringmanageremail .older {
+  color: var(--mine-shaft);
+  left: 268px;
+  line-height: 19px;
+  position: absolute;
+  top: 477px;
+  white-space: nowrap;
+  width: 57px;
+}
+
+.hiringmanageremail .name {
+  color: var(--mine-shaft);
+  left: 268px;
+  line-height: 19px;
+  position: absolute;
+  top: 355px;
+  white-space: nowrap;
+  width: 57px;
+}
+
+.hiringmanageremail .primary-navigation {
+  align-items: center;
+  background-color: var(--lochmara-3);
+  display: flex;
+  height: 48px;
+  left: 0;
+  min-width: 1440px;
+  padding: 6px 16px;
+  position: absolute;
+  top: 82px;
+}
+
+.hiringmanageremail .icon-menu {
+  height: 15px;
+  margin-bottom: 1.0px;
+  width: 15px;
+}
+
+.hiringmanageremail .search-bar {
+  align-items: center;
+  background-color: var(--tropical-blue);
+  border-radius: 2px;
+  display: flex;
+  height: 31px;
+  margin-bottom: 1.0px;
+  margin-left: 183px;
+  min-width: 350px;
+  padding: 0 15px;
+}
+
+.hiringmanageremail .icon-search {
+  height: 16px;
+  margin-top: 1.0px;
+  width: 15px;
+}
+
+.hiringmanageremail .search {
+  color: var(--endeavour);
+  line-height: 19px;
+  margin-left: 16px;
+  min-height: 19px;
+  white-space: nowrap;
+  width: 57px;
+}
+
+.hiringmanageremail .primary-nav-icons {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  margin-left: 588px;
+  min-width: 264px;
+}
+
+.hiringmanageremail .combined-shape-2 {
+  height: 16px;
+  margin-bottom: 4.0px;
+  width: 16px;
+}
+
+.hiringmanageremail .overlap-group-3 {
+  height: 15px;
+  margin-bottom: 7.0px;
+  margin-left: 32px;
+  position: relative;
+  width: 16px;
+}
+
+.hiringmanageremail .icon-calendar-1 {
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.hiringmanageremail .combined-shape-3 {
+  height: 10px;
+  left: 4px;
+  position: absolute;
+  top: 5px;
+  width: 12px;
+}
+
+.hiringmanageremail .icon-settings {
+  height: 17px;
+  margin-bottom: 3.0px;
+  margin-left: 32px;
+  width: 16px;
+}
+
+.hiringmanageremail .icon-help {
+  height: 17px;
+  margin-bottom: 1.0px;
+  margin-left: 36px;
+  width: 8px;
+}
+
+.hiringmanageremail .icon {
+  height: 11px;
+  margin-bottom: 3.0px;
+  margin-left: 35px;
+  width: 17px;
+}
+
+.hiringmanageremail .oval-1 {
+  height: 32px;
+  margin-left: 24px;
+  width: 32px;
+}

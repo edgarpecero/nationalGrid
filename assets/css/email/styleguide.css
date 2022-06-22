@@ -1,0 +1,221 @@
+:root { 
+  --alto: #e0dedc;
+  --black: #000000;
+  --black-haze-2: #f7f7f7;
+  --chicago: #605e5c;
+  --cloud: #c8c6c4;
+  --concrete: #f3f2f1;
+  --endeavour: #005a9e;
+  --forest-green: #0fa922;
+  --golden-grass: #dfa022;
+  --hint-of-red: #faf9f8;
+  --hollywood-cerise: #e3008c;
+  --lochmara-3: #0178d4;
+  --malachite: #29ca43;
+  --mine-shaft: #323130;
+  --mountain-mist: #969696;
+  --orange-roughy: #ca5110;
+  --potters-clay: #8e562e;
+  --royal-blue: #4f6bee;
+  --saffron: #fdbc2f;
+  --scarpa-flow: #53565a;
+  --sonic-silver: #767676;
+  --sunset-orange: #ff6058;
+  --tropical-blue: #c7e0f4;
+  --ultramarine: #06148c;
+  --valencia: #df463d;
+  --white: #ffffff;
+  --white-2: #ffffff80;
+ 
+  --font-size-l: 28px;
+  --font-size-s2: 16px;
+  --font-size-xs2: 14px;
+  --font-size-xs3: 15px;
+  --font-size-xxs: 13px;
+  --font-size-xxxs: 12.5px;
+  --font-size-xxxs2: 12px;
+ 
+  --font-family-fontawesome5free-solid: "FontAwesome5Free-Solid", Helvetica;
+  --font-family-segoeui: "SegoeUI", Helvetica;
+  --font-family-segoeui-bold: "SegoeUI-Bold", Helvetica;
+  --font-family-sfprodisplay-regular: "SFProDisplay-Regular", Helvetica;
+}
+.header {
+  font-family: var(--font-family-segoeui);
+  font-size: var(--font-size-xs2);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.segoeui-normal-chicago-16px {
+  color: var(--chicago);
+  font-family: var(--font-family-segoeui);
+  font-size: var(--font-size-s2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-normal-mine-shaft-16px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-segoeui);
+  font-size: var(--font-size-s2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-normal-white-12px {
+  color: var(--white);
+  font-family: var(--font-family-segoeui);
+  font-size: var(--font-size-xxxs2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-normal-chicago-12px {
+  color: var(--chicago);
+  font-family: var(--font-family-segoeui);
+  font-size: var(--font-size-xxxs2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfprodisplay-regular-normal-black-12-5px {
+  color: var(--black);
+  font-family: var(--font-family-sfprodisplay-regular);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfprodisplay-regular-normal-sonic-silver-15px {
+  color: var(--sonic-silver);
+  font-family: var(--font-family-sfprodisplay-regular);
+  font-size: var(--font-size-xs3);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sfprodisplay-regular-normal-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-sfprodisplay-regular);
+  font-size: var(--font-size-xs3);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-normal-chicago-13px {
+  color: var(--chicago);
+  font-family: var(--font-family-segoeui);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-bold-scarpa-flow-28px {
+  color: var(--scarpa-flow);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segoeui-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-s2);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.fontawesome5free-solid-black-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-fontawesome5free-solid);
+  font-size: var(--font-size-xs2);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.segoeui-normal-mine-shaft-15px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-segoeui);
+  font-size: var(--font-size-xs3);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-normal-mine-shaft-13px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-segoeui);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-normal-white-17-1px {
+  color: var(--white);
+  font-family: var(--font-family-segoeui);
+  font-size: 17.1px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-bold-mine-shaft-17px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segoeui-bold-endeavour-14px {
+  color: var(--endeavour);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-xs2);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segoeui-bold-mine-shaft-14px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-xs2);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segoeui-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-xs2);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segoeui-normal-mine-shaft-17px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-segoeui);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.border-0-5px-valencia {
+  border: 0.5px solid var(--valencia);
+}
+
+.border-0-5px-golden-grass {
+  border: 0.5px solid var(--golden-grass);
+}
+
+.border-0-5px-forest-green {
+  border: 0.5px solid var(--forest-green);
+}
+
+.border-1px-concrete {
+  border: 1px solid var(--concrete);
+}
+
+.border-1px-mountain-mist {
+  border: 1px solid var(--mountain-mist);
+}

@@ -1,0 +1,10 @@
+/* screen - chevronleftdesktop */
+
+.chevron-left-desktop {
+  cursor: pointer;
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 15px;
+  min-height: 23px;
+  min-width: 306px;
+}

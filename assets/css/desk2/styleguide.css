@@ -1,0 +1,14 @@
+:root { 
+  --onyx: #373737;
+ 
+  --font-size-m: 15px;
+ 
+  --font-family-fontawesome5free-solid: "FontAwesome5Free-Solid", Helvetica;
+}
+.fontawesome5free-solid-black-onyx-15px {
+  color: var(--onyx);
+  font-family: var(--font-family-fontawesome5free-solid);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 900;
+}
