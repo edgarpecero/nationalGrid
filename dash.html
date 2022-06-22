@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=1440, maximum-scale=1.0" name="viewport">
+
+  <title>Technology Dashboard</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo2.png" rel="icon">
+  <link href="assets/img/logo2.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/dash.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: NiceAdmin - v2.2.2
+  * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="info.html" class="logo d-flex align-items-center">
+        <img src="assets/img/National_Grid_logo_white.png" alt="">
+
+      </a>
+
+    </div><!-- End Logo -->
+    <!-- End Search Bar -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex me-3 align-items-center">
+
+        <div class="search-bar">
+          <form class="search-form d-flex " method="POST" action="#">
+            <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+            <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+          </form>
+        </div>
+
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon align-items-center my-auto" href="#" data-bs-toggle="dropdown">
+            <i class="bx bxs-bell bx-md" style="color:white; "></i>
+
+          </a><!-- End Notification Icon -->
+
+
+        </li><!-- End Notification Nav -->
+
+
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile.png" alt="Profile" class="rounded-0">
+            <span class="d-none d-md-block ps-2"> <i class="fa fa-chevron-down"
+                style="font-size:medium;color:#fff;margin:auto" aria-hidden="true"></i></span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- End Sidebar-->
+
+  <main id="main" class="main ">
+
+
+
+
+    <section class="section ">
+      <form class=" w-100  px-5 pt-3 pb-3 mb-3" style="background-color:#F1F5FB; height:35%">
+        <div class="row " style="background-color:#F1F5FB">
+          <p style="color:#2A2A2B; font-size: large; font-weight: 700;">New Joiner Technology Provisioning Dashboard
+            <i
+              class="fa fa-chevron-down" style="font-size:medium;margin-left:2px" aria-hidden="true"></i></p>
+          <div class="col w-50">
+            <div class="row g-3 ">
+
+              <div class="col-md-6 ">
+                <label for="inputEmail5" class="form-label">New Hire Name :</label>
+                <select id="inputState" style="width:90%;" style="width:90%;" class="form-select">
+                  <option selected=""> </option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label for="inputEmail5" class="form-label">Start Date (From) :</label>
+
+                <input type="date" style="width:90%;" class="form-control" id="inputEmail5">
+
+              </div>
+              <div class="col-md-6">
+                <label for="inputEmail5" class="form-label">Hire Type:</label>
+
+                <select id="inputState" style="width:90%;" class="form-select">
+                  <option selected=""> </option>
+                  <option>...</option>
+                </select>
+              </div>
+
+              <div class="col-md-6">
+                <label for="inputEmail5" class="form-label">Role :</label>
+                <select id="inputState" style="width:90%;" class="form-select">
+                  <option selected=""> </option>
+                  <option>...</option>
+                </select>
+              </div>
+            </div>
+
+          </div>
+          <div class="col w-50 ">
+            <div class="row g-3 ">
+              <div class="col-md-6">
+                <label for="inputEmail5" class="form-label">Hire Type:</label>
+                <select id="inputState" style="width:90%;" class="form-select">
+                  <option selected=""> </option>
+                  <option>...</option>
+                </select>
+              </div>
+
+              <div class="col-md-6">
+                <label for="inputEmail5" class="form-label">Role :</label>
+                <select id="inputState" style="width:90%;" class="form-select">
+                  <option selected=""></option>
+                  <option>...</option>
+                </select>
+              </div>
+
+              <div class="col-lg-6 mt-3 pt-5 " style="width:95%;">
+
+                <button type="button" class="btn px-3"
+                  style="float:right; vertical-align:bottom;color: #fff; font-size: large; background-color: #01338D; border-radius: 4px; border-color: transparent;">
+                  Search
+                </button>
+
+                <button type="button" class="btn px-3 "
+                  style="float:right; vertical-align:bottom;color: #01338D; font-size: large;text-decoration: underline; background-color: transparent; border-radius: 4px; border-color: transparent;">
+                  Clear
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </form>
+
+
+      <div class="row mx-auto " style="width:100%; background-color: transparent;">
+        <div class="col-lg-12">
+
+          <div class="card " style=" background-color: transparent; margin: auto; width:100%">
+            <div class="card-body " id="tableBody" style=" background-color: transparent;">
+
+              <!-- Table with stripped rows -->
+              <table class="table datatable">
+                <thead style="border-radius:4px;">
+                  <tr>
+                    <th scope="col" id="info2">Requested for</th>
+                    <th scope="col" id="info2">Employee ID</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Start Date</th>
+                    <th scope="col">Role</th>
+                    <th scope="col">Hiring Manager</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Location</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row" id="name">Pramod Agrawal</td>
+                    <td id="empID">12334565</td>
+                    <td id="status" class="p-3"> <a href="./modalactionrequired1.html" data-bs-toggle="modal" class="btn "
+                        id="red">Action Required
+                        <i class="fa fa-chevron-right" style="font-size:small;font-weight: 400;" aria-hidden="true"></i>
+                    </a></td>
+                    <td id="startDate">Tues, Jun 21st, 2022 </td>
+                    <td id="role">Gas Field Operator</td>
+                    <td id="hm">Wallace Richard</td>
+                    <td id="type">Contractor</td>
+                    <td id="location">Syracuse Erie<br />Blvd 5110</td>
+                  </tr>
+                  <tr>
+                    <td scope="row" id="name">Vinay Sharma</td>
+                    <td id="empID">12334565</td>
+                    <td id="status" class="p-3"> <a href="./modalactionrequired2.html" data-bs-toggle="modal" class="btn "
+                        id="red">Action Required
+                        <i class="fa fa-chevron-right" style="font-size:small;font-weight: 400;" aria-hidden="true"></i>
+                    </a></td>
+                    <td id="startDate">Tues, Jun 21st, 2022 </td>
+                    <td id="role">Gas Field Operator</td>
+                    <td id="hm">Wallace Richard</td>
+                    <td id="type">Contractor</td>
+                    <td id="location">Syracuse Erie<br />Blvd 5110</td>
+                  </tr>
+                  <tr>
+                    <td scope="row" id="name">John Doe</td>
+                    <td id="empID">12444565</td>
+                    <td id="status" class="p-3"> <a href="./modalinprogress.html" data-bs-toggle="modal" class="btn "
+                        id="yellow">In Progress
+                        <i class="fa fa-chevron-right" style="font-size:small;font-weight: 400;" aria-hidden="true"></i>
+                    </a></td>
+                    <td id="startDate">Tues, Jun 28st, 2022 </td>
+                    <td id="role">Gas Field Operator</td>
+                    <td id="hm">Wallace Richard</td>
+                    <td id="type">Contractor</td>
+                    <td id="location">Northboro<br />-NGSrvCo</td>
+                  </tr>
+
+                  <tr>
+                    <td scope="row" id="name">Nikolay Nikandrov</td>
+                    <td id="empID">12334565</td>
+                    <td id="status" class="p-3"><a href="./modalinprogress.html" data-bs-toggle="modal" class="btn "
+                      id="yellow">In Progress
+                      <i class="fa fa-chevron-right" style="font-size:small;font-weight: 400;" aria-hidden="true"></i>
+                  </a></td>
+                    <td id="startDate">Tues, Jun 28st, 2022 </td>
+                    <td id="role">Gas Field Operator</td>
+                    <td id="hm">Wallace Richard</td>
+                    <td id="type">Contractor</td>
+                    <td id="location">Northboro<br />-NGSrvCo</td>
+                  </tr>
+                  <tr>
+                    <td scope="row" id="name">Richard Sloane</td>
+                    <td id="empID">12334565</td>
+                    <td id="status" class="p-3"> <a href="./modalcomplete.html" data-bs-toggle="modal" class="btn "
+                        id="green">Complete
+                        <i class="fa fa-chevron-right" style="font-size:small;font-weight: 400;" aria-hidden="true"></i>
+                    </a></td>
+                    <td id="startDate">Tues, Jun 2st, 2022 </td>
+                    <td id="role">Gas Field Operator</td>
+                    <td id="hm">Wallace Richard</td>
+                    <td id="type">Contractor</td>
+                    <td id="location">Syracuse Erie<br />Blvd 5110</td>
+                  </tr>
+              
+                  <tr>
+                    <td scope="row" id="name">Karthik Selvam</td>
+                    <td id="empID">12334565</td>
+                    <td id="status" class="p-3"><a href="./modalcomplete.html" data-bs-toggle="modal" class="btn "
+                      id="green">Complete
+                      <i class="fa fa-chevron-right" style="font-size:small;font-weight: 400;" aria-hidden="true"></i>
+                  </a></td>
+                    <td id="startDate">Tues, Jun 2st, 2022 </td>
+                    <td id="role">Gas Field Operator</td>
+                    <td id="hm">Wallace Richard</td>
+                    <td id="type">Contractor</td>
+                    <td id="location">Syracuse Erie<br />Blvd 5110</td>
+                  </tr>
+                 
+                </tbody>
+              </table>
+              <!-- End Table with stripped rows -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <div id="modalCenter" class="modal fade" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header" style="border:1px solid transparent">
+
+            <button type="button" class="btn btn-close my-auto" style="width:10%;padding:2px"
+             data-bs-dismiss="modal">
+                  
+            </button>
+          </div>
+          <div class="modal-body px-5">
+            <div class="row px-3 mb-3">
+              <div class="col-md-6 ">
+                <h5 style="color:#373737;  font-weight: 600;">Application setup
+                  <span class="badge" style="background-color:rgba(118, 229, 112, 0.34); color:#72B86E">
+                    Complete
+                  </span>
+                </h5>
+                <p style="color:#545252;font-style:italic ; font-size: medium; font-weight: 400;">Last updated on 04-20
+                  16:39</p>
+              </div>
+              <div class="col-md-6 my-auto">
+                <div class="progress" style="height: 10px; width: 80%; float: right; margin-right:5px;">
+                  <div class="progress-bar" role="progressbar" style="width: 100%;  background-color:#0091DA ;" aria-valuenow="10" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="row px-3 pt-5" style="border-top:1px solid #D7E1E6;  text-align: left;">
+              <h5 style="color:#373737;  font-weight: 600;">Device delivery
+                <span class="badge " style="background-color:rgba(255, 200, 0, 0.377); color: rgb(235, 183, 0)">
+                  In Progress</span>
+              </h5>
+
+              <div class="col-md-6 mb-3">
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-circle" style="color:#0091DA; font-size:small;"></i></span>
+                    <p style="color:#545252;  font-size: medium; font-weight: 400; ">
+
+                      Desktop/Laptop order
+                      <u style="color:#01338D; text-decoration: underline; font-size: medium; font-weight:bold; ">
+                        #REQ1234567
+                        <i class="fa fa-chevron-right" style="font-size:small;" aria-hidden="true"></i>
+                      </u>
+                    </p>
+                  </li>
+
+                  <li>
+
+                    <p style="color:#545252; font-size: medium; font-weight: 400; ">Order Status: Shipped</p>
+                    <p style="color:#545252; font-size: medium; font-weight: 400; ">Assigned to:
+                      <u style=" text-decoration: underline; font-size: medium; ">
+                        Cynthia Yates
+                        <i class="bi bi-envelope-fill" style="font-size:medium; " aria-hidden="true"></i>
+                      </u>
+                    </p>
+                    <p style="color:#545252;font-style:italic ; font-size: medium; font-weight: 400;">Last updated on
+                      04-20 16:39</p>
+
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-6 my-auto  ">
+
+
+                <div class="progress" style="height: 10px; width: 80%; float: right; ">
+                  <div class="progress-bar" role="progressbar" style="width: 50%;  background-color:#0091DA ;" aria-valuenow="10" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+
+                </div>
+
+              </div>
+
+              <div class="col-md-6 ">
+                <ul class="fa-ul">
+                  <li><span class="fa-li"><i class="fa fa-circle" style="color:#0091DA; font-size:small;"></i></span>
+                    <p style="color:#545252;  font-size: medium; font-weight: 400; ">
+
+                      Desktop/Laptop order
+                      <u style="color:#01338D; text-decoration: underline; font-size: medium; font-weight:bold; ">
+                     <a href="./desktoplaptoporderstatus.html">   #REQ1234567
+                        <i class="fa fa-chevron-right" style="font-size:small;" aria-hidden="true"></i>
+                      </a>
+                      </u>
+                    </p>
+                  </li>
+
+                  <li>
+                    <p style="color:#545252; font-size: medium; font-weight: 400; ">Assigned to:
+                      <u style=" text-decoration: underline; font-size: medium; ">
+                        Cynthia Yates
+                        <i class="bi bi-envelope-fill" style="font-size:medium; " aria-hidden="true"></i>
+                      </u>
+                    </p>
+                    <p style="color:#545252; font-size: medium; font-weight: 400; ">Order Status: Delivered</p>
+                  
+                    <p style="color:#545252;font-style:italic ; font-size: medium; font-weight: 400;">
+                      Last updated on 04-20 16:39
+                    </p>
+
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-6 my-auto  ">
+                
+
+                <div class="progress" style="height: 10px; width: 80%; float: right; ">
+                  
+                  <div class="progress-bar" role="progressbar" style="width: 32%; background-color:#0091DA ;" aria-valuenow="10" aria-valuemin="0"aria-valuemax="100">
+                             
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer" style="border:1px solid transparent">
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.min.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
